@@ -265,3 +265,7 @@ Read validation codes, messages, and nested field paths.
 
 - [View language](https://docs.luon.dev/frontend/view)
 - [Database models](https://docs.luon.dev/server/database)
+
+## License
+
+[MIT](LICENSE) © predeve

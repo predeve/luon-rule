@@ -1,7 +1,8 @@
 {
   "name": "@luon/rule",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Lightweight value formats and database schema rules for Luon",
+  "license": "MIT",
   "keywords": [
     "luon",
     "validation",
