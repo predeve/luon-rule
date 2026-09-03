@@ -1,0 +1,34 @@
+{
+  "name": "@luon/rule",
+  "version": "0.1.2",
+  "description": "Lightweight value formats and database schema rules for Luon",
+  "keywords": [
+    "luon",
+    "validation",
+    "schema",
+    "database",
+    "typescript"
+  ],
+  "homepage": "https://pkg.luon.dev/packages/rule/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/predeve/luon-rule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/predeve/luon/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://pkg.luon.dev"
+  },
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.0"
+  }
+}
