@@ -6,6 +6,26 @@ Part of [Luon](https://www.luon.dev) — Lightweight value formats and database 
 [Source](https://github.com/predeve/luon-rule) ·
 [Developer tools](https://www.luon.dev/tools)
 
+Define the shape once. Parse values or inspect validation errors.
+
+```ts
+import { r } from "@luon/rule";
+
+const Contact = r.object({
+  email: r.email(160).required(),
+  name: r.string(1, 80).trim(),
+});
+
+const result = Contact.safeParse({
+  email: "hello@example.com",
+  name: "  Luon  ",
+});
+
+if (result.success) console.log(result.data.name); // "Luon"
+```
+
+Read the implementation: [rules and parsing](src/index.ts).
+
 ## Install
 
 ```bash
